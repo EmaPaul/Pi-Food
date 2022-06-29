@@ -1,0 +1,84 @@
+.landing {
+    background-image: url('https://img.freepik.com/foto-gratis/ingredientes-comida-italiana_23-2148551669.jpg?w=2000'); 
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+}
+
+.welcomeMsg {
+    display: flex;
+    padding: 7px;
+    color: rgb(17, 17, 17);
+    font-size:50px;
+    font-weight: 700;    
+    text-shadow: 6px 4px 5px rgba(33 29 29 / 59%);
+    margin-left: 350px;
+    margin-top: 248px;
+}
+
+.homeButton {
+    margin-top: 350px;
+    margin-left: -690px;
+}
+
+.homeButton:hover {
+    color:#070707;
+    background-color: rgb(255, 254, 254);
+}
+
+
+
+/* CSS */
+.homeButton {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.homeButton:focus {
+  text-decoration: none;
+}
+
+.homeButton:hover {
+  text-decoration: none;
+}
+
+.homeButton:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.homeButton:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .homeButton {
+    padding: 12px 50px;
+  }
+}

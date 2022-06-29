@@ -1,0 +1,198 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.elmueble.com/medio/2022/02/11/cocina-abierta-suelo-continuo-madera-00535963_7231e473_1942x2000.jpg');
+    background-size: cover;
+}
+
+.initialMsg {
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 700;    
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+}
+
+.refreshButton {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 7px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+
+
+/* CSS */
+.refreshButton {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.refreshButton:focus {
+  text-decoration: none;
+}
+
+.refreshButton:hover {
+  text-decoration: none;
+}
+
+.refreshButton:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.refreshButton:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .refreshButton {
+    padding: 12px 50px;
+  }
+}
+
+.refreshButton:hover {
+    color:#000000;
+    background-color: rgb(231, 218, 218);
+}
+
+.addButton {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color:#000000;
+    background-color: rgb(231, 218, 218);
+}
+
+
+/* CSS */
+.addButton {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.addButton:focus {
+  text-decoration: none;
+}
+
+.addButton:hover {
+  text-decoration: none;
+}
+
+.addButton:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.addButton:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .addButton {
+    padding: 12px 50px;
+  }
+}
+
+
+.filters {
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 500;    
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+    padding: 10px 3px 0px;
+    margin-left: 19px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left:9px;
+    border:solid;
+    margin-bottom:10px;
+    margin-right: 12px;
+    background-image: url('https://i.gifer.com/Mg4.gif');
+}
+
+.eachRecipe {
+    display: flex;
+    padding: 3px;
+}
+
+.linkRecetas {    
+    text-decoration: none;    
+}
+
+.linkRecetas:visited {
+    color: none;
+    text-decoration: none;
+}
+
+.allrecipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
